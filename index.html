@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/materia/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center mt-5" onmousemove="handleMove(event)">
+      <canvas id="out" width="700" height="500"></canvas>
+      <div class="barre"></div>
+    </div>
+    <div class="out out1"></div>
+    <div class="out out2"></div>
+    <style>
+      canvas {
+        border: 2px dashed rgb(105, 105, 105);
+      }
+      .barre {
+        width: 120px;
+        height: 5px;
+        background-color: red;
+        position: absolute;
+        top: 73%;
+        left: 500px;
+      }
+    </style>
+    <script src="script.js"></script>
+  </body>
+</html>
