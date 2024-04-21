@@ -1,1 +1,1 @@
-### pingPong with vanillaJs
+# pingPong with vanillaJs
